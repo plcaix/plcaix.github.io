@@ -1,0 +1,15 @@
+[common]
+server_addr = 13.209.84.250 [goorm-ip]
+server_port = 55069 [goorm-port]
+
+[web]
+remote_port = 7080 [goorm-open-port]
+type = tcp [类型如ssh http https]
+local_ip = 127.0.0.1 [本地ip]
+local_port = 8080 [本地端口]
+
+[web02]
+remote_port = 7081 [goorm-open-port]
+type = tcp [类型如ssh http https]
+local_ip = 127.0.0.1  [本地ip]
+local_port = 8081 [本地端口]
